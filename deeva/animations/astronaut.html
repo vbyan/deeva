@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       body {{
+           background-color: transparent;
+           margin: 0;
+           padding: 0;
+           overflow: hidden;
+       }}
+
+       .astronaut {{
+           position: fixed;
+           top: 20vh; /* Initial top position */
+           left: 101vw; /* Initial left position */
+           width: 4%; /* Adjust the width as needed */
+           animation: floatAnimation 200s infinite alternate ease-in-out forwards;
+           animation-fill-mode: forwards
+       }}
+
+
+       @keyframes floatAnimation {{
+           0% {{
+               transform: translate(0, 0) rotate(-30deg);
+           }}
+
+           25% {{
+               transform: translate(-50vw, 81vh) rotate(330deg);
+           }}
+
+           50% {{
+               transform: translate(-106vw, 30vh) rotate(690deg);
+           }}
+
+           75% {{
+               transform: translate(-60vw, -25vh) rotate(1050deg);
+           }}
+
+           100% {{
+               transform: translate(0vw, 0vh) rotate(1410deg);
+           }}
+       }}
+
+       .astronaut:hover {{
+           cursor: pointer; /* Change cursor to pointer on hover */
+       }}
+    </style>
+</head>
+<body>
+    <img src="data:image/png;base64,{uri}" class="astronaut" title="HELP!">
+    <p style="position: fixed; bottom: 46vh; left: 50vw; text-align: center; width: 20vw; font-family: Arial,
+      sans-serif; font-size: 2vw; font-weight: bold; color: #999;">Not enough data
+      </p>
+</body>
+</html>

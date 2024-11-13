@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {{
+            background-color: transparent;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }}
+
+        .{key} {{
+            position: fixed;
+            top: {y}%; /* Adjust the top position as needed */
+            left: {x}%; /* Adjust the left position as needed */
+            width: {size}%; /* Adjust the width as needed */
+            animation: slidein 2s forwards;
+            animation_iteration_count: 1;
+        }}
+
+        .{key}.gray {{
+            filter: grayscale(100%);
+        }}
+
+        .{key}.colored {{
+            filter: none;
+        }}
+
+        .{key}:hover {{
+            cursor: pointer; /* Change cursor to pointer on hover */
+        }}
+
+        @keyframes slidein {{
+            from {{
+                transform: translateX(80%);
+            }}
+            to {{
+                transform: translateX(100%); /* Adjust the translation distance as needed */
+            }}
+        }}
+    </style>
+</head>
+<body>
+    <img src="data:image/png;base64,{uri}" class="{key} {scale}" title="{label}"> <!-- Added title attribute -->
+</body>
+</html>

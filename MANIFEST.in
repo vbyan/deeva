@@ -1,0 +1,4 @@
+recursive-include deeva/animations *
+recursive-include deeva/assets *
+recursive-include deeva/styles *
+recursive-include deeva/toy_data *

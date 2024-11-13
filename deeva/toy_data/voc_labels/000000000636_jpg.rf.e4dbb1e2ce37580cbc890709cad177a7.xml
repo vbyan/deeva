@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>000000000636_jpg.rf.e4dbb1e2ce37580cbc890709cad177a7.jpg</filename>
+	<path>000000000636_jpg.rf.e4dbb1e2ce37580cbc890709cad177a7.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>toilet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>109</xmin>
+			<xmax>462</xmax>
+			<ymin>91</ymin>
+			<ymax>627</ymax>
+		</bndbox>
+	</object>
+</annotation>

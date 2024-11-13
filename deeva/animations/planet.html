@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .{key} {{
+          width: 15vw;
+          display:inline-block;
+          margin: 0.3vw;
+          overflow: hidden;
+          border-radius: 50%;
+          box-shadow: 0 0 calc({size}/10 * 1vw) calc({size}/10 * 1vw) #000 inset, 0 0 calc({size}/10 * 1vw) calc({size}/50 * 1vw) #000;
+          position: fixed; /* Change this to absolute */
+          animation: {key}_orbit {cruise_time}s linear infinite;
+
+        }}
+
+        .{key}:after {{
+          position: absolute;
+          content: "";
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          box-shadow: calc({size}/10 * -1vw) calc({size}/10 * -1vw) calc({size}/10 * 1vw) calc({size}/50 * 1vw) #000 inset;
+          border-radius: 50%;
+        }}
+
+        .{key}::before {{
+          content: "";
+          display: block;
+          width: 400%;
+          padding-top:100%;
+          animation: spin {rotation_time}s linear infinite;
+          background: url("data:image/png;base64,{uri}");
+          background-size: auto 100%;
+        }}
+
+        @keyframes spin {{
+          to {{
+            transform: translateX(-50%);
+          }}
+        }}
+
+        @-webkit-keyframes {key}_orbit {{
+            from {{  -webkit-transform: rotate(0deg) translateX({radius}vw) rotate(0deg); }}
+            to   {{  -webkit-transform: rotate(360deg) translateX({radius}vw) rotate(360deg); }}
+                }}
+
+    </style>
+</head>
+<body>
+    <div
+            class="{key}" style="width:{size}vw; bottom:{y}vh; left:{x}vw;">
+    </div>
+</body>
+</html>

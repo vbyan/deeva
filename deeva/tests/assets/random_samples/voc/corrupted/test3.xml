@@ -1,0 +1,9 @@
+<annotation>
+	<folder>foo</folder>
+	<filename>foo.jpg</filename>
+	<size>
+		<width>aa</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+</annotation>

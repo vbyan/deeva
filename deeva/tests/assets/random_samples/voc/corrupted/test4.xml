@@ -1,0 +1,18 @@
+<annotation>
+	<folder>images</folder>
+	<filename>test1.txt</filename>
+	<size>
+		<width>1000</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>first</name>
+		<bndbox>
+			<xmin>foo</xmin>
+			<xmax>750</xmax>
+			<ymin>250</ymin>
+			<ymax>ee</ymax>
+		</bndbox>
+	</object>
+</annotation>

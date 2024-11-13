@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="068808f1-619b-4734-a34b-2f13e7199216" name="Changes" comment="example aaaa" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/deeva" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vbyan&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vbyan/deeva.git&quot;,
+    &quot;accountId&quot;: &quot;9afa89ba-3fc5-4431-a3b9-55476022f5ac&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2mWQvOKj2gkLIA74s8E2W23k1pf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python tests.pytest for test_converters.TestConverters.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_converters.TestConverters.test_check_correct.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_converters.TestConverters.test_check_corrupted.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_converters.TestConverters.test_check_default.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_converters.TestConverters.test_empty_voc.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_converters.TestConverters.test_empty_yolo.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_converters.TestConverters.test_get_labelmap.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_converters.TestConverters.test_parse_yolo.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_converters.TestConverters.test_voc_to_yolo.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_converters.TestConverters.test_yolo_to_voc.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.setup.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/vbyan/Desktop/PycharmProjects/DEEVA&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/deeva/assets/backgrounds" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/deeva" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_converters.TestConverters">
+    <configuration name="pytest for test_converters.TestConverters" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="DEEVA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deeva/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_converters.TestConverters&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_converters.TestConverters" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="DEEVA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deeva/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_converters.TestConverters&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_converters.TestConverters.test_empty_voc" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="DEEVA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deeva/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_converters.TestConverters.test_empty_voc&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_converters.TestConverters.test_parse_yolo" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="DEEVA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deeva/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_converters.TestConverters.test_parse_yolo&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_converters.TestConverters.test_yolo_to_voc" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="DEEVA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deeva/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_converters.TestConverters.test_yolo_to_voc&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_converters.TestConverters" />
+        <item itemvalue="Python tests.pytest for tests.test_converters.TestConverters" />
+        <item itemvalue="Python tests.pytest for tests.test_converters.TestConverters.test_yolo_to_voc" />
+        <item itemvalue="Python tests.pytest for tests.test_converters.TestConverters.test_parse_yolo" />
+        <item itemvalue="Python tests.pytest for tests.test_converters.TestConverters.test_empty_voc" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-884f5ed5d46b-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.22855.92" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="068808f1-619b-4734-a34b-2f13e7199216" name="Changes" comment="" />
+      <created>1727190083732</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727190083732</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Adding to github">
+      <option name="closed" value="true" />
+      <created>1727190209434</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727190209434</updated>
+    </task>
+    <task id="LOCAL-00002" summary="setup">
+      <option name="closed" value="true" />
+      <created>1727192355393</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727192355393</updated>
+    </task>
+    <task id="LOCAL-00003" summary="numpy version">
+      <option name="closed" value="true" />
+      <created>1727195537380</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727195537380</updated>
+    </task>
+    <task id="LOCAL-00004" summary="app startup">
+      <option name="closed" value="true" />
+      <created>1727216642053</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727216642053</updated>
+    </task>
+    <task id="LOCAL-00005" summary="startup dir bug">
+      <option name="closed" value="true" />
+      <created>1727216793304</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727216793304</updated>
+    </task>
+    <task id="LOCAL-00006" summary="startup dir bug">
+      <option name="closed" value="true" />
+      <created>1727271734166</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727271734166</updated>
+    </task>
+    <task id="LOCAL-00007" summary="startup dir bug">
+      <option name="closed" value="true" />
+      <created>1727283574118</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727283574118</updated>
+    </task>
+    <task id="LOCAL-00008" summary="examples">
+      <option name="closed" value="true" />
+      <created>1728045930829</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728045930829</updated>
+    </task>
+    <task id="LOCAL-00009" summary="example aaaa">
+      <option name="closed" value="true" />
+      <created>1731486446912</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731486446912</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding to github" />
+    <MESSAGE value="setup" />
+    <MESSAGE value="numpy version" />
+    <MESSAGE value="app startup" />
+    <MESSAGE value="startup dir bug" />
+    <MESSAGE value="examples" />
+    <MESSAGE value="example aaaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="example aaaa" />
+  </component>
+</project>

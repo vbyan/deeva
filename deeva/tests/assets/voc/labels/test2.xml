@@ -1,0 +1,27 @@
+<annotation>
+	<folder>images</folder>
+	<filename>test2.jpg</filename>
+	<size>
+		<width>500</width>
+		<height>1500</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>first</name>
+		<bndbox>
+			<xmin>0</xmin>
+			<xmax>200</xmax>
+			<ymin>0</ymin>
+			<ymax>300</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>second</name>
+		<bndbox>
+			<xmin>50</xmin>
+			<xmax>150</xmax>
+			<ymin>150</ymin>
+			<ymax>450</ymax>
+		</bndbox>
+	</object>
+</annotation>

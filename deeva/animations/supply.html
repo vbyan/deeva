@@ -1,0 +1,27 @@
+<style>
+    .path {{
+        stroke-dasharray: 10;
+        stroke-dashoffset: 100;
+        animation: flow 3s linear infinite;
+        position: relative;
+    }}
+
+    .{key} {{
+            margin-top: -0.8vw; /* Adjust this value as needed */
+            position: relative;
+            right: {right}vw
+          }}
+
+    @keyframes flow {{
+        100% {{
+            stroke-dashoffset: 0;
+        }}
+    }}
+</style>
+
+<svg class="{key}" width="21vw" height="39vh">
+    <path d="{d2}" fill="{color}"/>
+    <path class="path" d="{d1}" stroke-miterlimit="10" fill="none" stroke="{color}" stroke-width="5"/>
+</svg>
+
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .{key} {{
+            position: fixed;
+            top: {y}vh;
+            left: {x}vw;
+            transform: translate(-50%, -50%) rotate({direction}deg);
+            cursor: pointer;
+        }}
+
+        .{key} span {{
+            display: block;
+            width: {size}vw;
+            height: {size}vw;
+            border-bottom: 0.5vh solid white;
+            border-right: 0.5vh solid white;
+            transform: rotate(45deg);
+            margin: -1vh;
+            animation: animate 2s infinite;
+        }}
+
+        .{key} span:nth-child(2) {{
+            animation-delay: -0.2s;
+        }}
+
+        .{key} span:nth-child(3) {{
+            animation-delay: -0.4s;
+        }}
+
+        .{key} span:nth-child(4) {{
+            animation-delay: -0.6s;
+        }}
+
+        .{key} span:nth-child(5) {{
+            animation-delay: -0.8s;
+        }}
+
+        @keyframes animate {{
+            0% {{
+                opacity: 0;
+                transform: rotate(45deg) translate(-2vh, -2vh);
+            }}
+            50% {{
+                opacity: 1;
+            }}
+            100% {{
+                opacity: 0;
+                transform: rotate(45deg) translate(2vh, 2vh);
+            }}
+        }}
+
+    </style>
+</head>
+<body>
+    <div class="{key}">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</body>
+</html>

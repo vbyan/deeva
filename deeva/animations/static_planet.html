@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .{key} {{
+          width: {size}vw;
+          display:inline-block;
+          margin: 0.3vw;
+          overflow: hidden;
+          border-radius: 50%;
+          box-shadow: 0 0 calc({size}/10 * 1vw) calc({size}/10 * 1vw) #000 inset, 0 0 calc({size}/10 * 1vw) calc({size}/50 * 1vw) #000;
+          position: fixed; /* Change this to absolute */
+        }}
+
+        .{key}:after {{
+          position: absolute;
+          content: "";
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          box-shadow: calc({size}/10 * -1vw) calc({size}/10 * -1vw) calc({size}/10 * 1vw) calc({size}/50 * 1vw) #000 inset;
+          border-radius: 50%;
+        }}
+
+        .{key}::before {{
+          content: "";
+          display: block;
+          width: 400%;
+          padding-top:100%;
+          animation: spin {rotation_time}s linear infinite;
+          background: url("data:image/png;base64,{uri}");
+          background-size: auto 100%;
+        }}
+
+
+        @keyframes spin {{
+          to {{
+            transform: translateX(-50%);
+          }}
+        }}
+    </style>
+</head>
+<body>
+    <p style="position: fixed; bottom: calc({y}vh - 7vh); left: {x}vw; text-align: center; width: {size}vw; font-family: Arial,
+              sans-serif; font-size: 1vw; font-weight: bold; color: {color}; text-transform: uppercase;">{planet_name}
+    </p>
+    <div class="{key}" style="bottom:{y}vh; left:{x}vw;">
+    </div>
+</body>
+</html>
