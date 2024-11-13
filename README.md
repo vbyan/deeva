@@ -1,4 +1,4 @@
-# Deeva 🚀
+# Deeva 🚀   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  [![PyPI](https://img.shields.io/pypi/v/deeva.svg)](https://pypi.org/project/deeva/) [![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![GitHub Repo stars](https://img.shields.io/github/stars/vbyan/deeva?style=social)](https://github.com/vbyan/deeva)
 
 **Your Smart Analytics Companion for Object Detection Datasets**
 
