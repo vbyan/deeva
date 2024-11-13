@@ -2,6 +2,8 @@
 
 **Your Smart Analytics Companion for Object Detection Datasets**
 
+<br>
+
 ## 🎯 Overview
 
 **Deeva** is a powerful yet easy-to-use analytics toolkit that makes exploring **Object Detection** datasets a breeze, whether you're just starting out or a seasoned pro. 
