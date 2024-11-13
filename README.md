@@ -20,6 +20,8 @@ Deeva is designed to simplify data exploration and reporting, so you can get mea
 - **💾 Smart Caching**: Efficient processing with intelligent data caching for large datasets
 - **🎲 Built-in Toy Datasets**: Quickly get started with the included `coco128` dataset, perfect for initial experimentation.
 
+<br>
+
 ## 🛠 Installation
 
 install with **pip**:
@@ -58,6 +60,7 @@ data-path/
 ├── labels/        # Folder containing label files (e.g., .txt, .xml)
 └── labelmap.txt   # A file mapping class IDs to class labels (optional)
 ```
+<br>
 
 ## 💡 Insights & Analytics
 
@@ -106,6 +109,7 @@ Deeva offers a powerful set of **statistical insights** to give you a detailed u
 - **Ratios**: Calculate and visualize the overlap ratio distributions for each class
 - **With/without overlaps**: Present a side-by-side comparison of images and co-occurrences with and without overlaps
 
+<br>
 
 ## 🔖 **Caching & Version control**
 
@@ -115,10 +119,13 @@ Data extracted during time-consuming operations can be saved as a **dataframe on
 
 To **track different versions** of your dataset you need to simply put them into different folders and **Deeva** will do the rest
 
+<br>
 
 ## 🌟 **Contributing**
 
 **Deeva** welcomes contributions! If you have ideas or want to add new features, please feel free to open a pull request or start a discussion on **GitHub**. 
+
+<br>
 
 ## License
 
