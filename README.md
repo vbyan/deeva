@@ -48,7 +48,7 @@ $ deeva start
 
 This will open the **input page** where you can specify the **data path**.
 
-<img src="https://raw.githubusercontent.com/vbyan/deeva/main/assets/input_page.gif"></img>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/vbyan/deeva/main/assets/input_page.gif"></img>
 
 ### Data structure
 
@@ -68,7 +68,7 @@ Deeva offers a powerful set of **statistical insights** to give you a detailed u
 
 ### 1. **File Matching and Integrity**
 
-<br> <img src="https://raw.githubusercontent.com/vbyan/deeva/main/assets/data_match.gif">
+<br> &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/vbyan/deeva/main/assets/data_match.gif">
 
 - **Image-Label Matching**: Calculates how many images have **corresponding labels** (and vice versa).
 - **Filename Consistency**: Identifies **misaligned or corrupted files** in images and labels.
@@ -77,7 +77,7 @@ Deeva offers a powerful set of **statistical insights** to give you a detailed u
 
 ### 2. **Dataset Overview**
 
-<br> <img src="https://raw.githubusercontent.com/vbyan/deeva/main/assets/overall.gif">
+<br> &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/vbyan/deeva/main/assets/overall.gif">
 
 - **File Formats & Backgrounds**: View format distribution (`yolo` vs. `voc`, `jpeg` vs. `png`).
 - **Class Distribution**: Displays instance counts and images per class, highlighting any **class imbalances**.
@@ -86,7 +86,7 @@ Deeva offers a powerful set of **statistical insights** to give you a detailed u
 
 ### 3. **Annotation Insights**
 
-<br> <img src="https://raw.githubusercontent.com/vbyan/deeva/main/assets/annotations.gif">
+<br> &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/vbyan/deeva/main/assets/annotations.gif">
 
 - **Bounding Box Analysis**: Provides insights into box center, width/height, and median box sizes.
 - **Box Size Distribution**: Analyzes box size categories with **adjustable thresholds** for small, medium, and large sizes.
@@ -94,7 +94,7 @@ Deeva offers a powerful set of **statistical insights** to give you a detailed u
 
 ### 4. **Image Statistics**
 
-<br> <img src="https://raw.githubusercontent.com/vbyan/deeva/main/assets/images.gif">
+<br> &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/vbyan/deeva/main/assets/images.gif">
 
 - **Color Analysis**: Displays **dominant colors** and their tones extracted from images.
 - **Image Dimensions**: Examines **height, width,** and aspect ratios across your dataset.
@@ -103,7 +103,7 @@ Deeva offers a powerful set of **statistical insights** to give you a detailed u
 
 ### 5. **Overlap Statistics**
 
-<br> <img src="https://raw.githubusercontent.com/vbyan/deeva/main/assets/overlaps.gif">
+<br> &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/vbyan/deeva/main/assets/overlaps.gif">
 
 - **Cases**: Classify and **cluster** overlapping instances from two specific classes into `n` predefined cases. Display representative **example images** for each case to help visualize typical overlap patterns.
 - **Ratios**: Calculate and visualize the overlap ratio distributions for each class
