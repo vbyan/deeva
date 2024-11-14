@@ -1,14 +1,20 @@
 import os
 from setuptools import setup, find_packages
 
-# Read requirements from requirements.txt
-with open('requirements.txt') as f:
-    requirements = f.read().splitlines()
+# Set the base path relative to this file's location
+base_dir = os.path.abspath(os.path.dirname(__file__))
+
+# Read requirements.txt with absolute path
+requirements_path = os.path.join(base_dir, 'requirements.txt')
+requirements = []
+if os.path.isfile(requirements_path):
+    with open(requirements_path) as f:
+        requirements = f.read().splitlines()
 
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 packages = find_packages(exclude=("deeva.tests",))
 setup(
@@ -38,6 +44,7 @@ setup(
         'Operating System :: POSIX :: Linux',
         'Operating System :: MacOS',
     ],
-    python_requires='>=3.10',
+    license="Apache License 2.0",
+    python_requires='>=3.9',
 
 )

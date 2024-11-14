@@ -3,7 +3,7 @@ import sys
 
 APP_NAME = "deeva"
 APP_SCRIPT = "app.py"
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 
 # Additional Streamlit configurations
 RUN_CONFIGS = [
